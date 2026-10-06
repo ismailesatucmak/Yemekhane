@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>YEMEKHANE</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="a7.exe.licenses" />
+    <EmbeddedResource Include="a7.exe.licenses" LogicalName="a7.exe.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Utils.v7.2">
+      <HintPath>..\DevExpress.Utils.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v7.2">
+      <HintPath>..\DevExpress.XtraNavBar.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v7.2">
+      <HintPath>..\DevExpress.XtraEditors.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v7.2">
+      <HintPath>..\DevExpress.XtraGrid.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v7.2">
+      <HintPath>..\DevExpress.XtraScheduler.v7.2.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport">
+      <HintPath>..\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="SkinProject2">
+      <HintPath>..\SkinProject2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.2">
+      <HintPath>..\DevExpress.Data.v7.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
